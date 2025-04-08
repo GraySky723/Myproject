@@ -9,7 +9,3 @@ COPY . .
 
 # 安装 Python 依赖（如果有 requirements.txt）
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install mysql-connector-python
-
-# 运行 Python 程序
-CMD ["python", "app.py"]
