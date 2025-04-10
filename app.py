@@ -9,9 +9,9 @@ def main():
     # 新增计算功能
     num1 = int(input("请输入第一个数字: "))
     num2 = int(input("请输入第二个数字: "))
-    print(f"加法结果: {add(num1, num2)}")
-    print(f"减法结果: {subtract(num1, num2)}")
-    print(f"乘法结果: {multiply(num1,num2)}")
-    print(f"除法结果: {divide(num1,num2)}")
+    print(f"相加后: {add(num1, num2)}")
+    print(f"相减后: {subtract(num1, num2)}")
+    print(f"相乘后: {multiply(num1,num2)}")
+    print(f"相除后: {divide(num1,num2)}")
 if __name__ == "__main__":
     main()
